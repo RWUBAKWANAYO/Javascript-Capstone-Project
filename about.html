@@ -1,78 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./about.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+			integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS"
+			crossorigin="anonymous"
+		/>
+		<link rel="icon" href="./assets/images/react-logo.png" type="image/png" />
+		<title>React summit</title>
+	</head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./about.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous" />
-   <link rel="icon" href="./assets/images/react-logo.png" type="image/png">
-  <title>React summit</title>
-</head>
-
-<body>
-  <div class="intro-section">
-    <header class="nav-header">
-      <nav class="nav-wrapper">
-        <a href="index.html"><img src="./assets/images/logo.png" alt="logo" class="nav-logo"></a>
-        <i class="fa-solid fa-bars" id="menuBarIcon"></i>
-        <ul class="nav-list-group" id="nav-list-group">
-          <li id="closeMenu"><i class="fa-solid fa-xmark" id="closeMenuIcon"></i></li>
-          <li class="nav-list"><a href="./index.html" class="nav-list-link">Home</a></li>
-          <li class="nav-list"><a href="#" class="nav-list-link page-links">Program</a></li>
-          <li class="nav-list"><a href="#" class="nav-list-link page-links">Join</a></li>
-          <li class="nav-list"><a href="#" class="nav-list-link page-links">Sponsor</a></li>
-          <li class="nav-list"><a href="#" class="nav-list-link page-links">News</a></li>
-          <li class="nav-list" id="nav-list"><button class="page-links nav-list-button">CC campain</button></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="about-intro-section">
-      <div class="about-intro-container">
-        <h1 class="about-intro-second-header">THE BIGGEST REACT<br />CONFERENCE WORLDWIDE 2022</h1>
-        <p class="about-intro-paragraph">
-          React Summit is an annual conference on all things React, gathering thousands of Front-end and Full-stack engineers from around the world.
-Originally exclusively in-person, React Summit now offers a hybrid format with both remote and in-person participation.
-This year, the format of the event will be hybrid, with the first day streamed from the Amsterdam venue including hybrid networking features and interactive entertainment; and second day, as well as the numerous free workshops, streamed to the global audience online.
-Stay tuned! </p>
-        <h4 class="about-intro-hoster">Please contact us on email for further questions about React summit 2022</h4>
-        <a href="#" class="about-intro-hoster-link">
-          <span>reactsummit2022.org</span>
-          <i class="fa-solid fa-chevron-right"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="about-content-section">
-    <h2 class="dark-header">Giving back to community</h2>
-    <hr class="content-line" />
-    <p class="about-content-paragraph">Every year, we try our best to make the event accessible and inclusive for a diverse audience. We would like to especially thank the following partners who have supported this initiative and helped us provide Diversity Scholarships for people from the groups that are underrepresented in tech..</p>
-    <div class="about-content-logo-wrapper">
-      <img src="./assets//images/shopify-logo.png" alt="" class="about-content-logo-img">
-    </div>
-  </div>
-  <div class="past-summit-section">
-    <h2 class="dark-header">WORKSHOPS FREE & PRO</h2>
-    <hr class="content-line" />
-    <p class="past-summit-paragraph">Take full advantage of your conference experience, and get training from our best speakers and instructors. We'll cover TypeScript, Testing React Apps, Advanced React, Concurrent Rendering in React 18, Blitz.js, GraphQL Security Testing, Ionic & React while allocating enough time for practice.</p>
-    <div class="past-summit-cards-container"></div>
-  </div>
-  <div class="partners-section">
-    <h2 class="light-header">Partners</h2>
-    <hr class="content-line" />
-    <div class="partners-logo about-partners"></div>
-  </div>
-  <footer class="footer">
-    <div class="footer-content">
-      <img src="./assets/images/logo.png" alt="logo" class="footer-logo">
-      <div>
-        <h5 class="footer-copyright">Copyright © 2022. All right reserved</h5>
-        <h5 class="footer-owner">Developed by Rwubakwanayo</h5>
-      </div>
-    </div>
-  </footer>
-  <script src="./script.js"></script>
-</body>
-
+	<body>
+		<div class="intro-section">
+			<header class="nav-header">
+				<nav class="nav-wrapper">
+					<a href="index.html"
+						><img src="./assets/images/logo.png" alt="logo" class="nav-logo"
+					/></a>
+					<i class="fa-solid fa-bars" id="menuBarIcon"></i>
+					<ul class="nav-list-group" id="nav-list-group">
+						<li id="closeMenu"><i class="fa-solid fa-xmark" id="closeMenuIcon"></i></li>
+						<li class="nav-list"><a href="./index.html" class="nav-list-link">Home</a></li>
+						<li class="nav-list"><a href="#" class="nav-list-link page-links">Program</a></li>
+						<li class="nav-list"><a href="#" class="nav-list-link page-links">Join</a></li>
+						<li class="nav-list"><a href="#" class="nav-list-link page-links">Sponsor</a></li>
+						<li class="nav-list"><a href="#" class="nav-list-link page-links">News</a></li>
+						<li class="nav-list" id="nav-list">
+							<button type="button" class="page-links nav-list-button">CC campain</button>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<div class="about-intro-section">
+				<div class="about-intro-container">
+					<h1 class="about-intro-second-header">
+						THE BIGGEST REACT<br />CONFERENCE WORLDWIDE 2022
+					</h1>
+					<p class="about-intro-paragraph">
+						React Summit is an annual conference on all things React, gathering thousands of
+						Front-end and Full-stack engineers from around the world. Originally exclusively
+						in-person, React Summit now offers a hybrid format with both remote and in-person
+						participation. This year, the format of the event will be hybrid, with the first day
+						streamed from the Amsterdam venue including hybrid networking features and interactive
+						entertainment; and second day, as well as the numerous free workshops, streamed to the
+						global audience online. Stay tuned!
+					</p>
+					<h4 class="about-intro-hoster">
+						Please contact us on email for further questions about React summit 2022
+					</h4>
+					<a href="#" class="about-intro-hoster-link">
+						<span>reactsummit2022.org</span>
+						<i class="fa-solid fa-chevron-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="about-content-section">
+			<h2 class="dark-header">Giving back to community</h2>
+			<hr class="content-line" />
+			<p class="about-content-paragraph">
+				Every year, we try our best to make the event accessible and inclusive for a diverse
+				audience. We would like to especially thank the following partners who have supported this
+				initiative and helped us provide Diversity Scholarships for people from the groups that are
+				underrepresented in tech..
+			</p>
+			<div class="about-content-logo-wrapper">
+				<img src="./assets//images/shopify-logo.png" alt="" class="about-content-logo-img" />
+			</div>
+		</div>
+		<div class="past-summit-section">
+			<h2 class="dark-header">WORKSHOPS FREE & PRO</h2>
+			<hr class="content-line" />
+			<p class="past-summit-paragraph">
+				Take full advantage of your conference experience, and get training from our best speakers
+				and instructors. We'll cover TypeScript, Testing React Apps, Advanced React, Concurrent
+				Rendering in React 18, Blitz.js, GraphQL Security Testing, Ionic & React while allocating
+				enough time for practice.
+			</p>
+			<div class="past-summit-cards-container"></div>
+		</div>
+		<div class="partners-section">
+			<h2 class="light-header">Partners</h2>
+			<hr class="content-line" />
+			<div class="partners-logo about-partners"></div>
+		</div>
+		<footer class="footer">
+			<div class="footer-content">
+				<img src="./assets/images/logo.png" alt="logo" class="footer-logo" />
+				<div>
+					<h5 class="footer-copyright">Copyright © 2022. All right reserved</h5>
+					<h5 class="footer-owner">Developed by Rwubakwanayo</h5>
+				</div>
+			</div>
+		</footer>
+		<script src="./script.js"></script>
+	</body>
 </html>
