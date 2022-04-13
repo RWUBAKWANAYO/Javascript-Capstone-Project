@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./index.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+			integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS"
+			crossorigin="anonymous"
+		/>
+		<link rel="icon" href="./assets/images/react-logo.png" type="image/png" />
+		<title>React summit</title>
+	</head>
+
+	<body>
+		<div class="intro-section">
+			<header class="nav-header">
+				<nav class="nav-wrapper">
+					<a href="index.html"
+						><img src="./assets/images/logo.png" alt="logo" class="nav-logo"
+					/></a>
+					<i class="fa-solid fa-bars" id="menuBarIcon" style="font-size: 40px"></i>
+					<ul class="nav-list-group" id="nav-list-group">
+						<li id="closeMenu"><i class="fa-solid fa-xmark" id="closeMenuIcon"></i></li>
+						<li class="nav-list"><a href="./about.html" class="nav-list-link">About</a></li>
+						<li class="nav-list"><a href="#" class="page-links nav-list-link">Program</a></li>
+						<li class="nav-list"><a href="#" class="page-links nav-list-link">Join</a></li>
+						<li class="nav-list"><a href="#" class="page-links nav-list-link">Sponsor</a></li>
+						<li class="nav-list"><a href="#" class="page-links nav-list-link">News</a></li>
+						<li class="nav-list" id="nav-list">
+							<button class="page-links nav-list-button">CC campain</button>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<div class="hero-section">
+				<div class="hero-container">
+					<h2 class="hero-first-header">"Hello! React Coder"</h2>
+					<h1 class="hero-second-header">THE BIGGEST REACT<br />CONFERENCE WORLDWIDE<br />2022</h1>
+					<p class="hero-paragraph">
+						React Summit is an annual conference on all things React, gathering thousands of
+						Front-end and Full-stack engineers from around the world. Originally exclusively
+						in-person, React Summit now offers a hybrid format with both remote and in-person
+						participation. This year, the format of the event will be hybrid, with the first day
+						streamed from the Amsterdam venue including hybrid networking features and interactive
+						entertainment; and second day, as well as the numerous free workshops, streamed to the
+						global audience online. Stay tuned!
+					</p>
+					<h2 class="hero-date">June 17th hybrid in Amsterdam & 21st remote, 2022</h2>
+					<h4 class="hero-hoster">React Summit is a celebration of good things coming together</h4>
+				</div>
+			</div>
+		</div>
+		<div class="program-section">
+			<h2 class="light-header">Mian Program</h2>
+			<hr class="content-line" />
+			<div class="program-cards-container"></div>
+			<button type="button" class="program-join-button">Join React Summit 2022</button>
+		</div>
+		<div class="speakers-section">
+			<h2 class="dark-header">Speakers & Instructors</h2>
+			<hr class="content-line" />
+			<div class="speaker-card-container"></div>
+			<div class="speaker-scroll-cont">
+				<button class="speaker-scroll-button" id="showMore" ">
+        <span class="speaker-scroll-text">SHOW MORE</span>
+        <i class="fa-solid fa-chevron-down"></i>
+        </button>
+				<button class="speaker-scroll-button" id="showLess" >
+          <span class="speaker-scroll-text">SHOW LESS</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </button>
+			</div>
+		</div>
+		<div class="partners-section">
+			<h2 class="light-header">Partners</h2>
+			<hr class="content-line" />
+			<div class="partners-logo"></div>
+		</div>
+		<footer class="footer">
+			<div class="footer-content">
+				<img src="./assets/images/logo.png" alt="logo" class="footer-logo" />
+				<div>
+					<h5 class="footer-copyright">Copyright © 2022. All right reserved</h5>
+					<h5 class="footer-owner">Developed by Rwubakwanayo</h5>
+				</div>
+			</div>
+		</footer>
+		<script src="./script.js"></script>
+	</body>
+</html>
