@@ -12,6 +12,8 @@ Project view is available and compatible with all device screen (mobile device, 
 - HTML
 - CSS
 - JavaScript
+- Google fonts
+- Fontawesome icons
 
 ## Live Demo
 [rwubakwanayo.github.io.react-summit](https://rwubakwanayo.github.io/Javascript-Capstone-Project/)
