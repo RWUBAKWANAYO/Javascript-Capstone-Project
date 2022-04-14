@@ -7,7 +7,6 @@
 React summit is the project which shows react js conferences, it provide access of events details such as event description, program available during the event, details of the speakers & instructors, and sponsors of the event,
 Project view is available and compatible with all device screen (mobile device, Ipad, laptop and desktop).
 
-
 ## Built With
 - HTML
 - CSS
@@ -45,3 +44,4 @@ Give a :star:️ if you like this project!
 -   Much appreciate to Cindy Shin Createor of design
 ## :memo: License
 This project is [MIT](./MIT.md) licensed.
+
