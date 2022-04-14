@@ -6,12 +6,7 @@
 
 React summit is the project which shows react js conferences, it provide access of events details such as event description, program available during the event, details of the speakers & instructors, and sponsors of the event,
 Project view is available and compatible with all device screen (mobile device, Ipad, laptop and desktop).
-For more information about about this project check the video below which explain project perfomance and features
-## Loom video
 
-This video explain in details perfomance and features.
-
-Link to the video : [loom.rwubakwanayo](https://rwubakwanayo.github.io/Javascript-Capstone-Project/)
 
 ## Built With
 - HTML
