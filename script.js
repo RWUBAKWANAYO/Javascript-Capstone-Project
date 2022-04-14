@@ -22,7 +22,7 @@ closeMenu.addEventListener('click', () => {
 });
 navbarLink.forEach((Link) => {
   Link.addEventListener('click', () => {
-    navListGroup.style.transform = 'translateX(-100%)';
+    navListGroup.style.transform = '';
     handleBodyScroll(true);
   });
 });
@@ -182,9 +182,9 @@ const speakersContainer = document.querySelector('.speaker-card-container');
 const getSpeakersData = () => {
   if (!speakersContainer) return;
   speakersData.map((speaker, index) => {
-    const div = document.createElement('div');
-    div.classList = 'speaker-card';
-    div.innerHTML = ` <div class="speaker-image-cont">
+    const article = document.createElement('article');
+    article.classList = 'speaker-card';
+    article.innerHTML = ` <div class="speaker-image-cont">
           <img src=${speaker.image} alt="speakers" class="speaker-image"/>
         </div>
         <div class="speakers-description">
@@ -194,7 +194,7 @@ const getSpeakersData = () => {
           <p class="speakers-paragraph">${speaker.details.slice(0, 100)} <span class="program-more-details"
            onclick="handlePopup(${index})">More Details</span></p>
         </div>`;
-    const outPut = speakersContainer.appendChild(div);
+    const outPut = speakersContainer.appendChild(article);
     return outPut;
   });
 };
