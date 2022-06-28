@@ -1,6 +1,6 @@
-# React summit 2022
+# React summit
 
-> This is the javascript capstone project which end first module.
+> 'React Summit' is that shows you an annual conference on all things React, gathering thousands of Front-end and Full-stack engineers from around the world.
 
 ![screenshot](./assets/images/screenshot.png)
 
@@ -30,7 +30,7 @@ Navigate to the Folder and Double Click on index.html File or you can simply ope
 Project will open and running to your Browser.
 Learn more about [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer#:~:text=Shortcuts%20to%20Start%2FStop%20Server&text=Open%20a%20HTML%20file%20and,on%20Open%20with%20Live%20Server%20.&text=Open%20the%20Command%20Pallete%20by,Server%20to%20stop%20a%20server)
 ## Authors
-:bust_in_silhouette: **Author**
+:bust_in_silhouette: **RWUBAKWANAYO**
 - GitHub: [@githubrwubakwanayo](https://github.com/RWUBAKWANAYO)
 - LinkedIn: [Rwubakwanayo](https://www.linkedin.com/in/rwubakwanayo-olivier)
 ## :handshake: Contributing
